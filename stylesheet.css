@@ -1,0 +1,117 @@
+body {
+	font-family: Florence, cursive;
+	background: green;
+	
+}
+h3{
+	color: blue;
+	font-size: 300%;
+	text-align: center;
+}
+.container{
+	height:50%;
+	width: 90%;
+	position:absolute ;
+	top:16%;
+	left:3.5%;
+	transform: translateX(0%) translatey(10%);
+	background: rgba(255, 255, 255, 0.5);
+	padding:20px;
+	border: 1px solid;
+	box-shadow: 0 0 8px 3px #fff;
+	border-radius: 30px;
+}
+.title{
+	height: 21%;
+	border: 5px solid;
+	left:8%;
+	border-radius: 30px;
+	border-color:black;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	font-size: 36px;
+	text-transform: uppercase;
+	background:rgba(255, 255, 255, 0.5);
+	color:#08036c;
+}
+.img{
+	position: absolute;
+
+}
+.question{
+	padding:20px;
+	font-size: 22px;
+	background: #08038C;
+	border-radius: 10px;
+	margin: 10px 0 10px;
+	color: #f6f6f6;
+}
+.option{
+	width: 40%;
+	display:inline-block;
+	padding:10px 0 10px 15px;
+	vertical-align: middle;
+	background: rgba(255, 255, 255, 0.5);
+	margin: 10px 0 10px 10px;
+	color: #000000
+	border-radius: 20px;
+}
+.option: hover{
+	background: #08038C;
+	color: #f6f6f6;
+}
+.nextButton{
+	border: none;
+	outline: non;
+	background: blue;
+	width:100px;
+	height:35px;
+	border-radius:20px;
+	cursor:pointer;
+	float:right;
+	margin: 55px;
+}
+.nextButton:hover{
+	border-color: #08038c;
+	color: #f6f6f6;
+}
+.result{
+	height: 40%;
+	text-align: center;
+	font-size: 75px;
+}
+.option input:checked .option{
+	background: #08038c
+	color:#000;
+}.bottom{
+	font-family: serif;
+	position: absolute;
+	top: 80%;
+	width:98%;
+	bottom: 10%;
+	border: 5px solid;
+	border-radius: 30px;
+	border-color:black;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	text-align: center;
+	font-size: 2em;
+	text-transform: uppercase;
+	background: rgba(255, 255, 255, 0.5);
+	color:#08036c;
+}
+.containerResult{
+	height:50%;
+	width: 90%;
+	position:absolute ;
+	top:16%;
+	left:3.5%;
+	transform: translateX(0%) translatey(10%);
+	background: rgba(255, 255, 255, 0.5);
+	padding:20px;
+	border: 1px solid;
+	box-shadow: 0 0 8px 3px #fff;
+	border-radius: 30px;
+	display: none;
+}
